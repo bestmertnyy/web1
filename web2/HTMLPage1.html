@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Champions league </title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="C:\Users\User\OneDrive - lnu.edu.ua\Робочий стіл\web2\img\cl1.png" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+</head>
+    <body>
+        <!-- HEADER -->
+    <header class="header">
+        <div class="container">
+            <h1>CHAMPIONS LEAGUE</h1>
+            <h2>
+                <small>UEFA</small>
+            </h2>
+        </div>
+    </header>
+    <!-- /HEADER -->
+    <!-- NAVIGATION -->
+    <nav class="page-navigation">
+        <div class="container">
+            <ul>
+                <li><a href="index2.html">Tickets</a></li>
+                <li><a href="index3.html">Info</a></li>
+                <li><a href="index4.html">Contacts</a></li>
+            </ul>
+
+            <!-- LOGIN FORM -->
+            <form action="#" class="login">
+                <input type="text" placeholder="Login" required>
+                <input type="password" placeholder="Password" required>
+                <input type="submit" value="Sign In">
+            </form>
+            <!-- /LOGIN FORM -->
+        </div>
+    </nav>
+    <!-- /NAVIGATION -->
+    <!-- MAIN SECTION -->
+    <main>
+        <div class="container">
+            <h2 class="collection-title"><small>News</small></h2>
+            <div class="collections">
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="C:\Users\User\OneDrive - lnu.edu.ua\Робочий стіл\web2\img\cl.jpg" alt="List picture" width="" height="">
+                        <div class="collection-text">
+                            <h3>Group stage</h3>
+                            <p id="ttt">
+                                The 2021–22 UEFA Champions League group stage began on 14 September 2021 and will end on 8 December 2021.
+                                
+                            </p>
+                            <button onclick="clik()">Read More...</button>
+                            <script>
+                                function clik() {
+                                    document.getElementById("ttt").innerHTML ="A total of 32 teams compete in the group stage to decide the 16 places in the knockout phase  of the 2021–22 UEFA Champions League."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="C:\Users\User\OneDrive - lnu.edu.ua\Робочий стіл\web2\img\ch.png" alt="List picture" width="" height="">
+                        <div class="collection-text">
+                            <h3>Season 20/21 winner</h3>
+                            <p id="t1">
+                                Chelsea Football Club are an English professional football club based in Fulham, West London. Founded in 1905, the club competes in the Premier League, the top division of English football. 
+                            </p>
+                            <button onclick="clik1()">Read More...</button>
+                            <script>
+                                function clik1() {
+                                    document.getElementById("t1").innerHTML = "Chelsea are among England's most successful clubs, having won over thirty competitive honours, including six league titles and eight European trophies. Their home ground is Stamford Bridge."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <img src="C:\Users\User\OneDrive - lnu.edu.ua\Робочий стіл\Web_\Web1\img\upl.png" alt="List picture" width="" height="">
+                        <div class="collection-text">
+                            <h3>Ukrainian Premier League</h3>
+                            <p id="t2">
+                                The Ukrainian Premier League or UPL is the highest division of Ukrainian annual football championship. As the Vyshcha Liha it was formed in 1991 as part of the 1992 Ukrainian football championship upon discontinuation of the 1991 Soviet football championship and included the Ukraine-based clubs that competed previously in the Soviet top three tiers competitions as well as better clubs of the Ukrainian republican competitions.
+                            </p>
+                            <button onclick="clik2()">Read More...</button>
+                            <script>
+                                function clik2() {
+                                    document.getElementById("t2").innerHTML = " The initial season of the league featured six former Soviet Top League clubs among which were Dynamo, Shakhtar, Chornomorets, Dnipro, Metalist, Metalurh as well as four more clubs that previously also competed at the top league."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="collection-title">UEFA<small>VIDEO</small></h2>
+            <div class="collections">
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie1.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3>Champions League </h3>
+                            <p id="t3">
+                                The UEFA Champions League (abbreviated as UCL) is an annual club football competition organised by the Union of European Football Associations (UEFA) and contested by top-division European clubs, deciding the competition winners through a round robin group stage to qualify for a double-legged knockout format, and a single leg final. 
+                            </p>
+                            <button onclick="clik3()">Read More...</button>
+                            <script>
+                                function clik3() {
+                                    document.getElementById("t3").innerHTML = "It is one of the most prestigious football tournaments in the world and the most prestigious club competition in European football, played by the national league champions (and, for some nations, one or more runners-up) of their national associations."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie2.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3 style="color: orangered">Europa League</h3>
+                            <p id="t4">
+                                The UEFA Europa League (abbreviated as UEL) is an annual football club competition organised by the Union of European Football Associations (UEFA) for eligible European football clubs. 
+                            </p>
+                            <button onclick="clik4()">Read More...</button>
+                            <script>
+                                function clik4() {
+                                    document.getElementById("t4").innerHTML = "It is the second-tier competition of European club football, ranking below the UEFA Champions League and above the UEFA Europa Conference League after being the third-tier competition from 1971 to 1999 before the UEFA Cup Winners' Cup was discontinued.Clubs qualify for the competition based on their performance in their national leagues and cup competitions."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+                <div class="collection-item-outer">
+                    <div class="collection-item">
+                        <video controls>
+                            <source src="video/movie3.mp4" type="video/mp4">
+                        </video>
+                        <div class="collection-text">
+                            <h3 style="color: limegreen"> Conference League </h3>
+                            <p id="t5">
+                                The UEFA Europa Conference League (abbreviated as UECL), colloquially referred to as the UEFA Conference League, is an annual football club competition organised by the Union of European Football Associations (UEFA) for eligible European football clubs. 
+                            </p>
+                            <button onclick="clik5()">Read More...</button>
+                            <script>
+                                function clik5() {
+                                    document.getElementById("t5").innerHTML = "Clubs qualify for the competition based on their performance in their national leagues and cup competitions. It is the third tier of European club football, after the Champions League and the Europa League."
+                                }
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- /MAIN SECTION -->
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>Nazar Dykyy 2021</p>
+        </div>
+    </footer>
+    <!-- /FOOTER -->
+    </body>
+</html>
